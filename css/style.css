@@ -227,6 +227,12 @@ height: 500px;
 z-index: -100;
 }
 
+.minispacer {
+width: 100%;
+height: 100px;
+z-index: -100;
+}
+
 .icon {
 width: 10%;
 max-width: 160px;
