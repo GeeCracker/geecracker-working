@@ -1,2 +1,2 @@
-# http://geecracker.github.io
+# http://GeeCracker.github.io
 My website
