@@ -124,45 +124,51 @@ a {
 }
 
 .widget2 {
-	margin-top: 20%;
-	height: 80%;
+	margin-top: 15%;
 	background-color: #704c96;
 }
 
 .widget2:hover {
-	margin-top: 10%;
+	margin-top: 8%;
 	background-color: #704c96;
 }
 
 .widget3 {
-	margin-top: 40%;
-	height: 60%;
+	margin-top: 25%;
 	background-color: #573b75;
 }
 
 .widget3:hover {
-	margin-top: 30%;
+	margin-top: 18%;
 	background-color: #573b75;
 }
 
 .widget4 {
-	margin-top: 60%;
-	height: 40%;
+	margin-top: 35%;
 	background-color: #39274c;
 }
 
 .widget4:hover {
-	margin-top: 50%;
+	margin-top: 28%;
 	background-color: #39274c;
 }
 
 .widget5 {
-	margin-top: 80%;
-	height: 20%;
+	margin-top: 45%;
 	background-color: #2d1e3d;
 }
 
 .widget5:hover {
-	margin-top: 70%;
+	margin-top: 38%;
 	background-color: #2d1e3d;
+}
+
+.weblink {
+	color: white;
+	border-bottom: 1px solid transparent;
+	transition: ease 0.2s;
+}
+
+.weblink:hover {
+	border-bottom: 1px solid white;
 }
