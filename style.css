@@ -29,8 +29,21 @@ a {
 	color: black;
 }
 
+.homebut {
+	border-left: 2px solid #b085db;
+	border-right: 1px solid #b085db;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: ease 0.3s;
+	color: white;
+}
+
+.homebut:hover {
+	border-left: 2px solid white;
+	padding-left: 20px;
+}
+
 .title {
-	height: 20%;
 	width: 55%;
 	padding-left: 5%;
 	margin-left: 10%;
@@ -74,4 +87,82 @@ a {
 	text-decoration: none;
 	color: black;
 	position: absolute;
+}
+
+.sidebar {
+	height: 100%;
+	min-height: 750px;
+	width: 30%;
+	min-width: 250px;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: white;
+	background-color: #b085db;
+	font-family: Poiret One;
+	font-size: 25pt;
+	position: absolute;
+}
+
+.widget1, .widget2, .widget3, .widget4, .widget5 {
+	width: 55%;
+	min-width: 250px;
+	height: 100%;
+	margin-left: 40%;
+	padding-left: 5%;
+	padding-top: 5%;
+	position: fixed;
+	background-color: #855bb2;
+	font-family: Poiret One;
+	font-size: 20pt;
+	color: white;
+	transition: ease 0.3s;
+}
+
+.widget1:hover {
+	background-color: #855bb2;
+}
+
+.widget2 {
+	margin-top: 20%;
+	height: 80%;
+	background-color: #704c96;
+}
+
+.widget2:hover {
+	margin-top: 10%;
+	background-color: #704c96;
+}
+
+.widget3 {
+	margin-top: 40%;
+	height: 60%;
+	background-color: #573b75;
+}
+
+.widget3:hover {
+	margin-top: 30%;
+	background-color: #573b75;
+}
+
+.widget4 {
+	margin-top: 60%;
+	height: 40%;
+	background-color: #39274c;
+}
+
+.widget4:hover {
+	margin-top: 50%;
+	background-color: #39274c;
+}
+
+.widget5 {
+	margin-top: 80%;
+	height: 20%;
+	background-color: #2d1e3d;
+}
+
+.widget5:hover {
+	margin-top: 70%;
+	background-color: #2d1e3d;
 }
