@@ -30,8 +30,8 @@ a {
 }
 
 .homebut {
-	border-left: 2px solid #b085db;
-	border-right: 1px solid #b085db;
+	border-left: 2px solid transparent;
+	border-right: 1px solid transparent;
 	padding-left: 10px;
 	padding-right: 10px;
 	transition: ease 0.3s;
@@ -155,6 +155,7 @@ a {
 
 .widget5 {
 	margin-top: 45%;
+	height: 75%;
 	background-color: #2d1e3d;
 }
 
