@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Geo');
+
+body {
+	margin: 0px;
+	background-color: white;
+	color: #140023;
+	font-family: geo;
+	font-size: 3em;
+}
+
+.uibox {
+	width: 30%;
+	min-width: 200px;
+	margin-left: 20%;
+	margin-top: 20%;
+	margin-bottom: 20%;
+	line-height: 130%;
+	border-right: 2px solid #140023;
+	position: absolute;
+	display: none;
+}
+
+.picbox {
+	width: 45%;
+	height: 100%;
+	margin-left: 55%;
+	line-height: 100%;
+	position: fixed;
+	display: inline;
+	overflow: auto;
+	background-image: url("fractl.png");
+	background-size: cover;
+	display: none;
+}
+
+.title {
+}
+
+.item {
+	display: inline;
+	line-height: 100%;
+	color: white;
+	background-color: #140023;
+	border-top: 2px solid transparent;
+	width: 50%;
+	padding: 1px;
+	transition: ease 0.2s;
+}
+
+.item:hover {
+	background-color: transparent;
+	color: #140023;
+	border-top: 2px solid #140023;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+#active {
+	font-weight: bold;
+}
