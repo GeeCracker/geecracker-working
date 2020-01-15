@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+}
+
+@keyframes fadein {
+  from { opacity: 0}
+  to   { opacity: 1}
+}
+
+@keyframes colorCycle {
+    0%{background-position:25% 0%}
+    50%{background-position:76% 100%}
+    100%{background-position:25% 0%}
+}
+
+a {
+  text-decoration: none;
+  font-size: 12pt;
+}
+
+a:visited {
+  color: blue;
+}
+
+.contentBox {
+  width: 40vw;
+  //outline: 1px solid red;
+  margin: auto;
+  margin-top: 30vh;
+  margin-bottom: 10vh;
+}
+
+.title {
+  text-align: left;
+  width: 100%;
+  margin-top: 5px;
+  font-size: 10pt;
+  font-style: italic;
+}
+
+.portfolio {
+  text-align: left;
+  width: 100%;
+  margin-top: 5px;
+  font-size: 40pt;
+  font-weight: bold;
+  background: linear-gradient(152deg, rgba(115, 173, 255, 0.2), rgba(115, 173, 255, 0.7), rgba(115, 173, 255, 0.2));
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: colorCycle 5s infinite;
+}
+
+.item {
+  width: fit-content;
+  text-align: left;
+  margin-top: 5px;
+  font-size: 12pt;
+  transition: 0.5s ease-out;
+}
+
+.item:hover {
+  letter-spacing: 15px;
+  font-size: 20pt;
+}
+
+.desc {
+  text-align: left;
+  margin-top: 30px;
+  font-size: 12pt;
+  width: 50%;
+}
+
+.titleImageBox {
+  position: absolute;
+  color: white;
+  font-size: 8pt;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  margin-top:40vh;
+  margin-left: 60vw;
+  border: 2px dashed blue;
+  transition: 0.5s ease-out;
+}
+
+.titleImageBox:hover {
+  color: blue;
+}
+
+.itemTitle {
+  text-align: left;
+  width: 20%;
+  margin-top: 5px;
+  font-size: 20pt;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.itemDesc {
+  text-align: left;
+  margin-top: 30px;
+  font-size: 12pt;
+  width: 50%;
+}
+
+.link {
+  text-align: left;
+  margin-top: 5px;
+  font-size: 12pt;
+  transition: 0.5s ease-out;
+  color: blue;
+}
+
+.link:hover {
+  letter-spacing: 5px;
+}
+
+.image {
+  max-width: 100%;
+  margin-top: 20px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 500px) {
+  /* CSS for screens that are 450 pixels or less will be put in this section */
+  
+.desc {
+  width: 80%;
+}
+  
+.contentBox {
+  width: 90vw;
+}
+  
+.itemDesc {
+  width: 70%;
+}
+  
+.itemTitle {
+  text-align: left;
+  width: 60%;
+  margin-top: 5px;
+  font-size: 20pt;
+  font-weight: bold;
+  font-style: italic;
+}
+  
+}
