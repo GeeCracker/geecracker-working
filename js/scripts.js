@@ -15,7 +15,7 @@ function loop() {
     document.getElementById("titlebottom").innerHTML = words[i];
     setTimeout(function(){
         document.getElementById("titlebottom").style.opacity = 0;
-    }, 2500);
+    }, 1500);
     if(i == 2) {
        i = 0; 
     } else {
@@ -23,4 +23,4 @@ function loop() {
     }
 };
 
-setInterval("loop()", 3000);
+setInterval("loop()", 2000);
